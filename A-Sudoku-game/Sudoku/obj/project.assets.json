@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\Sudoku\\Sudoku\\Sudoku.csproj",
+      "projectUniqueName": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\A-Sudoku-game\\Sudoku\\Sudoku.csproj",
       "projectName": "Sudoku",
-      "projectPath": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\Sudoku\\Sudoku\\Sudoku.csproj",
+      "projectPath": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\A-Sudoku-game\\Sudoku\\Sudoku.csproj",
       "packagesPath": "C:\\Users\\ameh0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\Sudoku\\Sudoku\\obj\\",
+      "outputPath": "C:\\Users\\ameh0\\OneDrive\\Рабочий стол\\купси\\C#\\курсова\\A-Sudoku-game\\Sudoku\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

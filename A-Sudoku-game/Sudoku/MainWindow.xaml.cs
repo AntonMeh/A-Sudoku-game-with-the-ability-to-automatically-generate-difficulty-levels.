@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sudoku.Actions;
 using Sudoku.Enums;
 
 namespace Sudoku
@@ -36,6 +37,8 @@ namespace Sudoku
                         cell.TextAlignment = TextAlignment.Center;
                         cell.VerticalContentAlignment = VerticalAlignment.Center;
 
+                        cell.PreviewTextInput += Cell_PreviewTextInput;
+
                         int gridRow = row < 3 ? row : (row < 6 ? row + 1 : row + 2);
                         int gridCol = col < 3 ? col : (col < 6 ? col + 1 : col + 2);
 
@@ -50,6 +53,13 @@ namespace Sudoku
                     }
                 }
             }  
+        }
+        private void Cell_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!char.IsDigit(e.Text[0]))
+            {
+                e.Handled = true; 
+            }
         }
         private void NewGameButton_Click(object sender, RoutedEventArgs e)
         {

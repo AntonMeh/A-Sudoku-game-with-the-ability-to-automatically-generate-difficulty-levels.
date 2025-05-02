@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\",
+  "WorkspaceRootPath": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\sudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\sudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\sudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\cells\\cellclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\cells\\cellclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\sudoku.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\sudoku.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\interfaces\\isudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\interfaces\\isudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\interfaces\\isudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\interfaces\\isudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\interfaces\\isudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\sudoku\\sudoku\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\interfaces\\isudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\interfaces\\isudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\cells\\cellclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\cells\\cellclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\sudoku.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\sudoku.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -50,28 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CellClass.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Cells\\CellClass.cs",
-              "RelativeDocumentMoniker": "Sudoku\\Cells\\CellClass.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Cells\\CellClass.cs",
-              "RelativeToolTip": "Sudoku\\Cells\\CellClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T23:00:16.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SudokuGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\SudokuGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\SudokuGenerator.cs",
               "RelativeDocumentMoniker": "Sudoku\\SudokuGenerator.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\SudokuGenerator.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\SudokuGenerator.cs",
               "RelativeToolTip": "Sudoku\\SudokuGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,37 +67,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Sudoku\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\AssemblyInfo.cs",
               "RelativeToolTip": "Sudoku\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T20:34:18.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T20:34:18.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Enums\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Enums\\DifficultyLevel.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Enums\\DifficultyLevel.cs",
+              "RelativeToolTip": "Sudoku\\Enums\\DifficultyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:05:42.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DifficultyLevel.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Enums\\DifficultyLevel.cs",
-              "RelativeDocumentMoniker": "Sudoku\\Enums\\DifficultyLevel.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Enums\\DifficultyLevel.cs",
-              "RelativeToolTip": "Sudoku\\Enums\\DifficultyLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T20:05:42.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ISudokuSolver.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Interfaces\\ISudokuSolver.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Interfaces\\ISudokuSolver.cs",
               "RelativeDocumentMoniker": "Sudoku\\Interfaces\\ISudokuSolver.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Interfaces\\ISudokuSolver.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Interfaces\\ISudokuSolver.cs",
               "RelativeToolTip": "Sudoku\\Interfaces\\ISudokuSolver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ISudokuGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Interfaces\\ISudokuGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Interfaces\\ISudokuGenerator.cs",
               "RelativeDocumentMoniker": "Sudoku\\Interfaces\\ISudokuGenerator.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Interfaces\\ISudokuGenerator.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Interfaces\\ISudokuGenerator.cs",
               "RelativeToolTip": "Sudoku\\Interfaces\\ISudokuGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Sudoku.csproj",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Sudoku.csproj",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Sudoku.csproj",
               "RelativeDocumentMoniker": "Sudoku\\Sudoku.csproj",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\Sudoku.csproj",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Sudoku.csproj",
               "RelativeToolTip": "Sudoku\\Sudoku.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -144,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\App.xaml",
               "RelativeDocumentMoniker": "Sudoku\\App.xaml",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\App.xaml",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\App.xaml",
               "RelativeToolTip": "Sudoku\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-09T12:39:08.15Z",
@@ -154,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sudoku\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\MainWindow.xaml",
               "RelativeToolTip": "Sudoku\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-09T12:24:17.357Z",
@@ -168,14 +153,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sudoku\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\Sudoku\\Sudoku\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Sudoku\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBUAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "Sudoku\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T12:24:14.964Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CellClass.cs",
+              "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Cells\\CellClass.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Cells\\CellClass.cs",
+              "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\Cells\\CellClass.cs",
+              "RelativeToolTip": "Sudoku\\Cells\\CellClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T23:00:16.627Z"
             }
           ]
         }

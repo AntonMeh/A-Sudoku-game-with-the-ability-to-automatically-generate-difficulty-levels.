@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Sudoku.Enums;
+using Sudoku.Interfaces;
+using Sudoku.Actions;
 
-namespace Sudoku
+namespace Sudoku.Actions
 {
-    public class SudokuGenerator
+    public class SudokuGenerator : ISudokuGenerator
     {
         private readonly Random _random = new Random();
 
@@ -19,15 +21,10 @@ namespace Sudoku
         private int[,] GenerateFullBoard()
         {
             int[,] board = new int[9, 9];
-            SolveSudoku(board); 
+            var solver = new SudokuSolver();
+            solver.Solve(board);
             return board;
         }
-
-        private bool SolveSudoku(int[,] board)
-        {
-            return true;
-        }
-
        
     }
 }

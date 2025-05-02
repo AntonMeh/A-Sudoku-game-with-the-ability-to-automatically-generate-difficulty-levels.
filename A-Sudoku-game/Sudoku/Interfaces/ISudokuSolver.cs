@@ -8,5 +8,6 @@ namespace Sudoku.Interfaces
 {
     interface ISudokuSolver
     {
+        bool Solve(int[,] board);
     }
 }
