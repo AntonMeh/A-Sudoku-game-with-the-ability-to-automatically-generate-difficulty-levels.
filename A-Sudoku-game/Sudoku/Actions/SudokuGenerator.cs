@@ -1,30 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sudoku.Actions;
 using Sudoku.Enums;
 using Sudoku.Interfaces;
-using Sudoku.Actions;
+using Sudoku.Cells;
 
 namespace Sudoku.Actions
 {
-    public class SudokuGenerator : ISudokuGenerator
+    public class SudokuGenerator : SudokuGeneratorBase
     {
-        private readonly Random _random = new Random();
-
-        public int[,] Generate(DifficultyLevel level)
+        protected override int GetCellsToRemove(DifficultyLevel level)
         {
-            int[,] board = GenerateFullBoard();
-            
-            return board;
+            switch (level)
+            {
+                case DifficultyLevel.Easy:
+                    return 40;
+                case DifficultyLevel.Medium:
+                    return 50;
+                case DifficultyLevel.Hard:
+                    return 60;
+                default:
+                    return 40;
+            }
         }
 
-        private int[,] GenerateFullBoard()
+        public override SudokuCell[,] Generate(DifficultyLevel level)
         {
-            int[,] board = new int[9, 9];
-            var solver = new SudokuSolver();
-            solver.Solve(board);
-            return board;
+            SudokuCell[,] board = GenerateFullBoard();
+            int cellsToRemove = GetCellsToRemove(level);
+            return RemoveCells(board, cellsToRemove);
         }
-       
     }
+
 }

@@ -1,7 +1,8 @@
 ﻿<Window x:Class="Sudoku.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Гра Судоку" Height="450" Width="400">
+        xmlns:srcDf="clr-namespace:Sudoku.Enums"
+        Title="Гра Судоку" Height="550" Width="500" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -10,10 +11,10 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Margin="10">
             <TextBlock Text="Рівень складності:" VerticalAlignment="Center" Margin="0,0,10,0"/>
-            <ComboBox x:Name="DifficultyComboBox" Width="120">
-                <ComboBoxItem>Легкий</ComboBoxItem>
-                <ComboBoxItem>Середній</ComboBoxItem>
-                <ComboBoxItem>Складний</ComboBoxItem>
+            <ComboBox x:Name="DifficultyComboBox" Width="120" SelectionChanged="DifficultyComboBox_SelectionChanged">
+                <srcDf:DifficultyLevel>Easy</srcDf:DifficultyLevel>
+                <srcDf:DifficultyLevel>Medium</srcDf:DifficultyLevel>
+                <srcDf:DifficultyLevel>Hard</srcDf:DifficultyLevel>
             </ComboBox>
         </StackPanel>
         <Grid x:Name="SudokuGrid" Grid.Row="1" Margin="12">
