@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sudoku.Cells;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Sudoku.Interfaces
 {
     interface ISudokuSolver
     {
-        bool Solve(int[,] board);
+        bool Solve(SudokuCell[,] board);
     }
 }

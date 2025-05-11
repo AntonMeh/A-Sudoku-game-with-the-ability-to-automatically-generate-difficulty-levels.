@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\App.xaml
-11407045341
+21047110025
 
-141681501052
+18796003122
 198-211836927
-MainWindow.xaml;
+View\MainWindow.xaml;View\RulesBox.xaml;
 
 False
 

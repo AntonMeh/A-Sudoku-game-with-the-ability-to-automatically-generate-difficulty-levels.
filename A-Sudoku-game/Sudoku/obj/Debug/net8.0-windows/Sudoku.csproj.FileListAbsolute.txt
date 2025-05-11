@@ -23,8 +23,6 @@ C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-S
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\bin\Debug\net8.0-windows\Sudoku.runtimeconfig.json
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\bin\Debug\net8.0-windows\Sudoku.dll
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\bin\Debug\net8.0-windows\Sudoku.pdb
-C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\Sudoku_MarkupCompile.cache
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\Sudoku.g.resources
@@ -40,3 +38,7 @@ C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-S
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\ref\Sudoku.dll
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\Sudoku_MarkupCompile.lref
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\MainWindow.baml
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\RulesBox.baml
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\RulesBox.g.cs

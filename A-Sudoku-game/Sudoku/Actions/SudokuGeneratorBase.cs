@@ -95,7 +95,7 @@ namespace Sudoku.Actions
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    resultBoard[i, j] = new SudokuCell(board[i, j].Value, board[i, j].IsInitial); 
+                    resultBoard[i, j] = new SudokuCell(board[i, j].Value, board[i, j].IsInitial);
                 }
             }
 
@@ -110,10 +110,9 @@ namespace Sudoku.Actions
                 int row = cell.Item1;
                 int col = cell.Item2;
 
-                if (resultBoard[row, col].Value != 0 && resultBoard[row, col].IsInitial) 
+                if (resultBoard[row, col].Value != 0 && resultBoard[row, col].IsInitial)
                 {
-                    resultBoard[row, col].Value = 0;
-                    resultBoard[row, col].PossibleValues = new List<int>(Enumerable.Range(1, 9)); 
+                    resultBoard[row, col] = new SudokuCell(0, false);
                     removedCount++;
 
                     if (removedCount == count)

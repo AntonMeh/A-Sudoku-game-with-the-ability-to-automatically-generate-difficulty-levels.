@@ -26,7 +26,6 @@ namespace Sudoku.Cells
 
         public bool IsInitial { get; }
         public bool IsError { get; set; }
-
         public List<int> PossibleValues { get; set; } = new List<int>(Enumerable.Range(1, 9));
 
         public SudokuCell(int initialValue = 0, bool isInitial = false) 
