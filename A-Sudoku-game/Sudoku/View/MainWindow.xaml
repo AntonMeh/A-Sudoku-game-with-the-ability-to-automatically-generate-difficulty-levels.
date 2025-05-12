@@ -147,8 +147,8 @@
         </Grid>
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Width="491">
             <Button x:Name="NewGameButton" Content="Нова гра" Width="80" Margin="120,0,10,0" Click="NewGameButton_Click"/>
-            <Button x:Name="SolveButton" Content="Розв'язати" Width="80" Margin="0,0,10,0"/>
-            <Button x:Name="CheckButton" Content="Перевірити" Width="80" Margin="0,0,30,0"/>
+            <Button x:Name="SolveButton" Content="Розв'язати" Width="80" Margin="0,0,10,0" Click="SolveButton_Click"/>
+            <Button x:Name="CheckButton" Content="Перевірити" Width="80" Margin="0,0,30,0" Click="CheckButton_Click"/>
             <Button x:Name="RulesButton" Content="Правила гри?" Click="RulesButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF0027FF"/>
         </StackPanel>
     </Grid>

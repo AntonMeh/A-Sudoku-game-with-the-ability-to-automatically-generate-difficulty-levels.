@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA2D886F-598A-42A8-9447-12A093FAACE5}|Sudoku\\Sudoku.csproj|c:\\users\\ameh0\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\a-sudoku-game\\sudoku\\actions\\sudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,17 +99,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sudoku\\View\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "Sudoku\\View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAmwO0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T00:26:57.821Z",
               "EditorCaption": ""
@@ -148,8 +148,7 @@
               "RelativeToolTip": "Sudoku\\Actions\\SudokuSolver.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAowGkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T23:04:51.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T23:04:51.238Z"
             },
             {
               "$type": "Document",
@@ -161,12 +160,11 @@
               "RelativeToolTip": "Sudoku\\Cells\\SudokuCell.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T23:00:16.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T23:00:16.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ameh0\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u043F\u0441\u0438\\C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\A-Sudoku-game\\Sudoku\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sudoku\\View\\MainWindow.xaml",
