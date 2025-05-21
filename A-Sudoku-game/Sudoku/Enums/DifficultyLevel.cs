@@ -12,4 +12,19 @@ namespace Sudoku.Enums
         Medium,
         Hard
     }
+
+    public static class DifficultySettings
+    {
+        public static int GetHintCount(DifficultyLevel level)
+        {
+            return level switch
+            {
+                DifficultyLevel.Easy => 5,
+                DifficultyLevel.Medium => 3,
+                DifficultyLevel.Hard => 1,
+                _ => 0
+            };
+        }
+    }
+
 }

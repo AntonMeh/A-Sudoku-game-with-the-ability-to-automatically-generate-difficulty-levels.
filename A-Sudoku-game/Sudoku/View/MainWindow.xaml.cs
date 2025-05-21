@@ -1,18 +1,13 @@
-﻿using System.Text;
+﻿using Sudoku.Actions;
+using Sudoku.Cells;
+using Sudoku.Enums;
+using Sudoku.View;
+using Sudoku.ViewModel;
+using System.Linq; 
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Sudoku.Actions;
-using Sudoku.Enums;
-using Sudoku.Cells;
-using Sudoku.ViewModel;
-using Sudoku.View;
 
 namespace Sudoku
 {
@@ -20,13 +15,17 @@ namespace Sudoku
     {
         private readonly SudokuGenerator _generator = new SudokuGenerator();
         private readonly SudokuSolver _solver = new SudokuSolver();
-        private SudokuCell[,] _board = new SudokuCell[9, 9];
+        private SudokuCell[,] _board = new SudokuCell[9, 9]; 
         private ViewModelClass _viewModel;
         private SudokuCell[,] _solution;
+        private string _completionTime;
+        private bool _puzzleSolvedManually = false;
 
         public MainWindow()
         {
             InitializeComponent();
+            _viewModel = new ViewModelClass();
+            DataContext = _viewModel;
             InitializeSudokuGrid();
         }
 
@@ -48,10 +47,10 @@ namespace Sudoku
                         cellTextBox.VerticalContentAlignment = VerticalAlignment.Center;
 
                         cellTextBox.PreviewTextInput += Cell_PreviewTextInput;
+                        cellTextBox.TextChanged += Cell_TextChanged;
+                        cellTextBox.GotFocus += Cell_GotFocus; 
 
-                        cellTextBox.FontSize = 24;
-
-                        cellTextBox.Tag = _board[row, col];
+                        cellTextBox.Tag = new Tuple<int, int>(row, col); 
 
                         (var gridRow, var gridCol) = ToUIGridPosition(row, col);
                         Border cellBorder = sudokuGrid.Children
@@ -67,35 +66,98 @@ namespace Sudoku
             }
         }
 
+        private void Cell_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (sender is TextBox textBox && textBox.Tag is Tuple<int, int> coords)
+            {
+                _viewModel.ActiveRow = coords.Item1;
+                _viewModel.ActiveCol = coords.Item2;
+            }
+        }
+
         private void Cell_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            if (!char.IsDigit(e.Text[0]))
+            if (!_viewModel.IsGameActive || !char.IsDigit(e.Text[0]) || e.Text == "0")
             {
                 e.Handled = true;
             }
         }
 
-        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        private void Cell_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (DifficultyComboBox.SelectedItem is DifficultyLevel selectedLevel)
+            if (sender is TextBox textBox)
             {
-                SudokuCell[,] newBoard = _generator.Generate(selectedLevel);
-
-                SudokuCell[,] solutionCopy = _solver.DeepCopyBoard(newBoard);
-                if (_solver.Solve(solutionCopy))
+                if (textBox.Tag is SudokuCell cell)
                 {
-                    _solution = solutionCopy;
+                    if (int.TryParse(textBox.Text, out int newValue) && newValue != 0)
+                    {
+                        if (!cell.IsInitial)
+                        {
+                            textBox.Foreground = Brushes.Blue; 
+                            cell.Value = newValue;
+                        }
+                    }
+                    else 
+                    {
+                        if (!cell.IsInitial) 
+                        {
+                            textBox.Foreground = Brushes.Blue; 
+                            cell.Value = 0; 
+                        }
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Помилка при генерації розв’язку.");
-                    return;
-                }
-
-                DisplayBoard(newBoard);
             }
         }
 
+        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (_viewModel.IsGameActive || _viewModel.ElapsedTime != "00:00:00")
+            {
+                MessageBoxResult result = MessageBox.Show(
+                    "Ви впевнені, що хочете почати нову гру? Весь прогрес поточної гри буде втрачено.",
+                    "Нова гра",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning
+                );
+
+                if (result == MessageBoxResult.No)
+                {
+                    return;
+                }
+            }
+
+            if (DifficultyComboBox.SelectedItem is not DifficultyLevel selectedLevel) 
+            {
+                MessageBox.Show("Будь ласка, виберіть рівень складності перед початком нової гри.", "Увага");
+                return;
+            }
+
+            _viewModel.ResetGame();
+
+            SudokuCell[,] newBoard = _generator.Generate(selectedLevel);
+
+            SudokuCell[,] solutionCopy = _solver.DeepCopyBoard(newBoard);
+            if (_solver.Solve(solutionCopy))
+            {
+                _solution = solutionCopy;
+            }
+            else
+            {
+                MessageBox.Show("Помилка при генерації розв’язку.");
+                return;
+            }
+
+            DisplayBoard(newBoard); 
+            _board = newBoard;
+
+            _viewModel.IsNewGameGenerated = true; 
+            _viewModel.IsGameActive = false;      
+            _viewModel.StartButtonState = StartButtonStateEnum.Start; 
+
+            _viewModel.RemainingHints = DifficultySettings.GetHintCount(selectedLevel);
+
+            _puzzleSolvedManually = false; 
+        }
 
         private void DisplayBoard(SudokuCell[,] board)
         {
@@ -115,31 +177,77 @@ namespace Sudoku
                         {
                             textBox.Text = board[row, col].Value == 0 ? "" : board[row, col].Value.ToString();
                             textBox.IsReadOnly = board[row, col].IsInitial;
+
+                            if (board[row, col].IsInitial)
+                            {
+                                textBox.Foreground = Brushes.Black; 
+                            }
+                            else
+                            {
+                                textBox.Foreground = Brushes.Blue; 
+                            }
+                            textBox.Background = Brushes.White; 
                         }
                     }
                 }
             }
-            _board = board; 
+            _board = board;
         }
 
-        private void DifficultyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
         private void SolveButton_Click(object sender, RoutedEventArgs e)
         {
-            SudokuCell[,] boardToSolve = GetCurrentBoardFromUI();
-
-            bool solved = _solver.Solve(boardToSolve);
-
-            if (solved)
+            if (!_viewModel.IsNewGameGenerated)
             {
-                DisplayBoard(boardToSolve);
+                MessageBox.Show("Спочатку створіть нову гру.", "Увага");
+                return;
             }
-            else
+
+            if (!_viewModel.IsGameActive)
             {
-                MessageBox.Show("Ця головоломка не має розв'язку.", "Помилка");
+                MessageBox.Show("Почніть гру, щоб отримати підказку.", "Увага");
+                return;
             }
+
+            if (_viewModel.RemainingHints <= 0)
+            {
+                MessageBox.Show("У вас закінчилися підказки.", "Підказка");
+                return;
+            }
+
+            int activeRow = _viewModel.ActiveRow;
+            int activeCol = _viewModel.ActiveCol;
+
+            if (activeRow == -1 || activeCol == -1)
+            {
+                MessageBox.Show("Будь ласка, оберіть клітинку, щоб отримати підказку.", "Увага");
+                return;
+            }
+
+            if (_board[activeRow, activeCol].Value != 0 || _board[activeRow, activeCol].IsInitial)
+            {
+                MessageBox.Show("Обрана клітинка вже заповнена або є початковим числом.", "Увага");
+                return;
+            }
+
+            _board[activeRow, activeCol].Value = _solution[activeRow, activeCol].Value;
+            _board[activeRow, activeCol].IsInitial = true; 
+
+            (var uiRow, var uiCol) = ToUIGridPosition(activeRow, activeCol);
+            Grid sudokuGrid = (Grid)FindName("SudokuGrid");
+
+            Border cellBorder = sudokuGrid.Children
+                .OfType<Border>()
+                .FirstOrDefault(b => Grid.GetRow(b) == uiRow && Grid.GetColumn(b) == uiCol);
+
+            if (cellBorder?.Child is TextBox textBox)
+            {
+                textBox.Text = _solution[activeRow, activeCol].Value.ToString();
+                textBox.Background = Brushes.LightYellow; 
+                textBox.IsReadOnly = true; 
+                textBox.Foreground = Brushes.Black; 
+            }
+
+            _viewModel.RemainingHints--; 
         }
 
         private SudokuCell[,] GetCurrentBoardFromUI()
@@ -160,11 +268,11 @@ namespace Sudoku
 
                         if (cellBorder?.Child is TextBox textBox && int.TryParse(textBox.Text, out int value))
                         {
-                            currentBoard[row, col] = new SudokuCell(value);
+                            currentBoard[row, col] = new SudokuCell(value, _board[row, col].IsInitial);
                         }
                         else
                         {
-                            currentBoard[row, col] = new SudokuCell();
+                            currentBoard[row, col] = new SudokuCell(0, _board[row, col].IsInitial);
                         }
                     }
                 }
@@ -183,6 +291,8 @@ namespace Sudoku
             SudokuCell[,] currentBoard = GetCurrentBoardFromUI();
             Grid sudokuGrid = (Grid)FindName("SudokuGrid");
             if (sudokuGrid == null) return;
+
+            bool allCorrect = true;
 
             for (int row = 0; row < 9; row++)
             {
@@ -204,17 +314,48 @@ namespace Sudoku
                             else
                             {
                                 textBox.Background = Brushes.LightCoral;
+                                allCorrect = false;
                             }
+                        }
+                        else 
+                        {
+                            textBox.Background = Brushes.White; 
+                            allCorrect = false;
+                        }
+
+                        if (_board[row, col].IsInitial) 
+                        {
+                            textBox.Foreground = Brushes.Black;
                         }
                         else
                         {
-                            textBox.Background = Brushes.White;
+                            textBox.Foreground = Brushes.Blue;
                         }
                     }
                 }
             }
-        }
 
+            if (allCorrect)
+            {
+                if (DataContext is ViewModelClass viewModel)
+                {
+                    _completionTime = viewModel.ElapsedTime;
+                    viewModel.Finish();
+
+                    int totalHints = DifficultySettings.GetHintCount(viewModel.SelectedDifficulty);
+                    int remaining = viewModel.RemainingHints;
+
+                    GameComplete gameComplete = new GameComplete(_completionTime, totalHints, remaining);
+                    gameComplete.Owner = this;
+                    gameComplete.ShowDialog();
+
+                    if (gameComplete.StartNewGameRequested)
+                    {
+                        NewGameButton_Click(null, null);
+                    }
+                }
+            }
+        }
 
         private (int uiRow, int uiCol) ToUIGridPosition(int row, int col)
         {
@@ -236,6 +377,26 @@ namespace Sudoku
             {
                 aboutBox = null;
             }
+        }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (_puzzleSolvedManually)
+            {
+                MessageBox.Show("Цей пазл вже розв’язано. Створіть нову гру, щоб почати.", "Неможливо почати гру");
+                return;
+            }
+
+            if (DataContext is ViewModelClass viewModel)
+            {
+                viewModel.StartGame();
+            }
+        }
+
+        public string GetCompletionTime()
+        {
+            return _completionTime;
         }
     }
 }

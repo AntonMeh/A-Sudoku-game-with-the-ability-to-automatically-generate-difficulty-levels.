@@ -42,3 +42,5 @@ C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-S
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\MainWindow.baml
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\RulesBox.baml
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\RulesBox.g.cs
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\GameComplete.g.cs
+C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\obj\Debug\net8.0-windows\View\GameComplete.baml

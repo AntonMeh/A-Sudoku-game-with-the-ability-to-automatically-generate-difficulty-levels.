@@ -24,7 +24,7 @@ namespace Sudoku.Cells
             }
         }
 
-        public bool IsInitial { get; }
+        public bool IsInitial { get; set;}
         public bool IsError { get; set; }
         public List<int> PossibleValues { get; set; } = new List<int>(Enumerable.Range(1, 9));
 

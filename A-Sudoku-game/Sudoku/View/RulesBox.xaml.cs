@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Sudoku.View
 {
-    /// <summary>
-    /// Логика взаимодействия для Rules.xaml
-    /// </summary>
     public partial class RulesBox : Window
     {
         public RulesBox()

@@ -6,46 +6,94 @@ namespace Sudoku.ViewModel
 {
     internal class GameTimer
     {
-        private string _initialValue = "00:00:00";
-        private int _interval = 1000;
+        private const string InitialValue = "00:00:00";
+        private const string TimeFormat = "hh\\:mm\\:ss";
+        private const int Interval = 1000;
 
         private DateTime _startTime;
         private System.Timers.Timer _timer;
 
-        internal event EventHandler<GameTimerEventArgs> GameTimerEvent;
 
-        internal GameTimer()
+        public event EventHandler<GameTimerEventArgs> GameTimerEvent;
+
+        public string ElapsedTime { get; private set; } = InitialValue;
+
+        private bool _isPaused = false;
+        private TimeSpan _pausedTime = TimeSpan.Zero;
+
+        public void StartTimer()
         {
-            ElapsedTime = _initialValue;
+            _startTime = DateTime.Now;
+            _pausedTime = TimeSpan.Zero;
+            _isPaused = false;
+
+            if (_timer == null)
+            {
+                _timer = new System.Timers.Timer(Interval);
+                _timer.Elapsed += OnTimerElapsed;
+                _timer.AutoReset = true;
+            }
+
+            _timer.Start();
+            RaiseEvent(InitialValue);
         }
 
-        internal string ElapsedTime { get; private set; }
-
-        private void _timer_Elapsed(object sender, ElapsedEventArgs e)
+        public void PauseTimer()
         {
+            if (_timer?.Enabled == true)
+            {
+                _timer.Stop();
+                _pausedTime += DateTime.Now - _startTime;
+                _isPaused = true;
+            }
+        }
+
+        public void ResumeTimer()
+        {
+            if (_timer != null && _isPaused)
+            {
+                _startTime = DateTime.Now;
+                _timer.Start();
+                _isPaused = false;
+            }
+        }
+
+        public void StopTimer()
+        {
+            if (_timer != null)
+            {
+                _timer.Stop();
+                UpdateElapsedTime();
+                RaiseEvent(""); 
+                _timer.Dispose();
+                _timer = null;
+            }
+        }
+
+        public void Reset()
+        {
+            ElapsedTime = InitialValue;
+            _startTime = DateTime.Now;
+            _pausedTime = TimeSpan.Zero;
+            _isPaused = false;
+            RaiseEvent(InitialValue);
+        }
+
+        private void OnTimerElapsed(object sender, ElapsedEventArgs e)
+        {
+            UpdateElapsedTime();
             RaiseEvent(ElapsedTime);
         }
 
-        internal void StartTimer()
+        private void UpdateElapsedTime()
         {
-            _startTime = DateTime.Now;                      
-            if (_timer == null)                            
-                _timer = new System.Timers.Timer(_interval);              
-            _timer.Elapsed += _timer_Elapsed;               
-            _timer.AutoReset = true;                        
-            _timer.Enabled = true;                         
-            RaiseEvent(_initialValue);                      
+            TimeSpan diff = (DateTime.Now - _startTime) + _pausedTime;
+            ElapsedTime = diff.ToString(TimeFormat);
         }
+
         protected virtual void RaiseEvent(string value)
         {
-            EventHandler<GameTimerEventArgs> handler = GameTimerEvent;
-            if (handler != null)
-            {
-                GameTimerEventArgs e = new GameTimerEventArgs(value);
-                handler(this, e);
-            }
+            GameTimerEvent?.Invoke(this, new GameTimerEventArgs(value));
         }
     }
-
-    
 }

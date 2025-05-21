@@ -8,13 +8,13 @@ C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-S
 Sudoku
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\ameh0\OneDrive\Рабочий стол\купси\C#\курсова\A-Sudoku-game\Sudoku\App.xaml
-21047110025
+31823794209
 
-18796003122
-198-211836927
-View\MainWindow.xaml;View\RulesBox.xaml;
+201166189919
+198-537775612
+View\GameComplete.xaml;View\MainWindow.xaml;View\RulesBox.xaml;
 
 False
 
